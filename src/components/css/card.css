@@ -1,0 +1,39 @@
+.card {
+  margin: 0.5em;
+  padding: 0.5em;
+  min-width: 15em;
+  max-width: 16em;
+  max-height: auto;
+  border-radius: 1em;
+  color: rgb(100, 100, 100);
+}
+.card-name {
+  padding: 0.5em 0;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: navy;
+}
+.card-thumbnail {
+  position: relative;
+  height: 13em;
+  width: 100%;
+}
+.card-id {
+  padding: 0.2em;
+  position: absolute;
+  bottom: 0.3em;
+  left: 0.3em;
+  background-color: white;
+}
+.card-thumbnail img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 0.5em;
+  filter: sepia(77%);
+}
+.card i {
+  color: navy;
+}
+.card-age {
+}
