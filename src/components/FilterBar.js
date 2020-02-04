@@ -1,14 +1,24 @@
 import React from "react";
+import PropTypes from "prop-types";
 
 const FilterBar = props => {
-  const menu = ["Name", "Id", "Age", "Weight", "Height", "Hair color"];
+  const menu = [
+    "name",
+    "id",
+    "age",
+    "weight",
+    "height",
+    "hair color",
+    "profession"
+  ];
+  const { loading, filter } = props;
   return (
-    <div>
+    <div className={loading ? "filtersMenuDisabled" : ""}>
       <ul>
         {menu.map((item, index) => (
           <li
             key={`menu+${index}`}
-            className={props.filterType === item ? "selected" : ""}
+            className={filter === item ? "selected" : ""}
             onClick={e => props.filterHandle(e, item)}
           >
             {item}
@@ -17,6 +27,12 @@ const FilterBar = props => {
       </ul>
     </div>
   );
+};
+
+FilterBar.propTypes = {
+  loading: PropTypes.bool,
+  filter: PropTypes.string,
+  filterHandle: PropTypes.func.isRequired
 };
 
 export default FilterBar;

@@ -37,6 +37,9 @@ header {
 }
 header ul {
 }
+.filtersMenuDisabled {
+  visibility: hidden;
+}
 header li {
   cursor: pointer;
   line-height: 2em;
@@ -45,6 +48,7 @@ header li {
   border-bottom: 3px solid rgb(104, 99, 79);
   color: rgb(104, 99, 79);
   transition: 0.25s;
+  text-transform: capitalize;
 }
 header li:hover,
 header .selected {
