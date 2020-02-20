@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/test/static/css/main.6c153c3e.chunk.css",
-    "main.js": "/test/static/js/main.0863c22c.chunk.js",
-    "main.js.map": "/test/static/js/main.0863c22c.chunk.js.map",
-    "runtime-main.js": "/test/static/js/runtime-main.a9446ed3.js",
-    "runtime-main.js.map": "/test/static/js/runtime-main.a9446ed3.js.map",
-    "static/js/2.6a4c927c.chunk.js": "/test/static/js/2.6a4c927c.chunk.js",
-    "static/js/2.6a4c927c.chunk.js.map": "/test/static/js/2.6a4c927c.chunk.js.map",
-    "index.html": "/test/index.html",
-    "precache-manifest.2e02675a3ad423f602b7be12ac034585.js": "/test/precache-manifest.2e02675a3ad423f602b7be12ac034585.js",
-    "service-worker.js": "/test/service-worker.js",
-    "static/css/main.6c153c3e.chunk.css.map": "/test/static/css/main.6c153c3e.chunk.css.map",
-    "static/js/2.6a4c927c.chunk.js.LICENSE.txt": "/test/static/js/2.6a4c927c.chunk.js.LICENSE.txt",
-    "static/media/App.css": "/test/static/media/city.a6b9124c.jpg"
+    "main.css": "/AXA-front-end-test/static/css/main.b76e23f0.chunk.css",
+    "main.js": "/AXA-front-end-test/static/js/main.30c25839.chunk.js",
+    "main.js.map": "/AXA-front-end-test/static/js/main.30c25839.chunk.js.map",
+    "runtime-main.js": "/AXA-front-end-test/static/js/runtime-main.fc7af967.js",
+    "runtime-main.js.map": "/AXA-front-end-test/static/js/runtime-main.fc7af967.js.map",
+    "static/js/2.6a4c927c.chunk.js": "/AXA-front-end-test/static/js/2.6a4c927c.chunk.js",
+    "static/js/2.6a4c927c.chunk.js.map": "/AXA-front-end-test/static/js/2.6a4c927c.chunk.js.map",
+    "index.html": "/AXA-front-end-test/index.html",
+    "precache-manifest.de0ed677fb47074a79bf6c79e4f8056e.js": "/AXA-front-end-test/precache-manifest.de0ed677fb47074a79bf6c79e4f8056e.js",
+    "service-worker.js": "/AXA-front-end-test/service-worker.js",
+    "static/css/main.b76e23f0.chunk.css.map": "/AXA-front-end-test/static/css/main.b76e23f0.chunk.css.map",
+    "static/js/2.6a4c927c.chunk.js.LICENSE.txt": "/AXA-front-end-test/static/js/2.6a4c927c.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/AXA-front-end-test/static/media/city.a6b9124c.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.a9446ed3.js",
+    "static/js/runtime-main.fc7af967.js",
     "static/js/2.6a4c927c.chunk.js",
-    "static/css/main.6c153c3e.chunk.css",
-    "static/js/main.0863c22c.chunk.js"
+    "static/css/main.b76e23f0.chunk.css",
+    "static/js/main.30c25839.chunk.js"
   ]
 }
