@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/AXA-front-end-test/static/css/main.b76e23f0.chunk.css",
-    "main.js": "/AXA-front-end-test/static/js/main.30c25839.chunk.js",
-    "main.js.map": "/AXA-front-end-test/static/js/main.30c25839.chunk.js.map",
+    "main.js": "/AXA-front-end-test/static/js/main.0748a1c6.chunk.js",
+    "main.js.map": "/AXA-front-end-test/static/js/main.0748a1c6.chunk.js.map",
     "runtime-main.js": "/AXA-front-end-test/static/js/runtime-main.fc7af967.js",
     "runtime-main.js.map": "/AXA-front-end-test/static/js/runtime-main.fc7af967.js.map",
     "static/js/2.6a4c927c.chunk.js": "/AXA-front-end-test/static/js/2.6a4c927c.chunk.js",
     "static/js/2.6a4c927c.chunk.js.map": "/AXA-front-end-test/static/js/2.6a4c927c.chunk.js.map",
     "index.html": "/AXA-front-end-test/index.html",
-    "precache-manifest.de0ed677fb47074a79bf6c79e4f8056e.js": "/AXA-front-end-test/precache-manifest.de0ed677fb47074a79bf6c79e4f8056e.js",
+    "precache-manifest.64f919db91cc8c7e916018eec8681c7c.js": "/AXA-front-end-test/precache-manifest.64f919db91cc8c7e916018eec8681c7c.js",
     "service-worker.js": "/AXA-front-end-test/service-worker.js",
     "static/css/main.b76e23f0.chunk.css.map": "/AXA-front-end-test/static/css/main.b76e23f0.chunk.css.map",
     "static/js/2.6a4c927c.chunk.js.LICENSE.txt": "/AXA-front-end-test/static/js/2.6a4c927c.chunk.js.LICENSE.txt",
@@ -18,6 +18,6 @@
     "static/js/runtime-main.fc7af967.js",
     "static/js/2.6a4c927c.chunk.js",
     "static/css/main.b76e23f0.chunk.css",
-    "static/js/main.30c25839.chunk.js"
+    "static/js/main.0748a1c6.chunk.js"
   ]
 }
