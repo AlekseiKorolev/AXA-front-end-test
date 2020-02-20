@@ -35,7 +35,7 @@
       "last 1 safari version"
     ]
   },
-  "homepage": "https://alekseikorolev.github.io/test/",
+  "homepage": "https://alekseikorolev.github.io/AXA-front-end-test/",
   "devDependencies": {
     "@react-mock/fetch": "^0.3.0",
     "@testing-library/react": "^9.4.0",
