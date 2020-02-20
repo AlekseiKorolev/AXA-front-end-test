@@ -1,7 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 
-const FilterBar = props => {
+const FilterBar = React.memo(props => {
   const menu = [
     "name",
     "id",
@@ -19,7 +19,7 @@ const FilterBar = props => {
           <li
             key={`menu+${index}`}
             className={filter === item ? "selected" : ""}
-            onClick={e => props.filterHandle(e, item)}
+            onClick={() => props.filterHandle(item)}
           >
             {item}
           </li>
@@ -27,7 +27,7 @@ const FilterBar = props => {
       </ul>
     </div>
   );
-};
+});
 
 FilterBar.propTypes = {
   loading: PropTypes.bool,

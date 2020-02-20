@@ -1,10 +1,9 @@
-import React, { useState } from "react";
+import React from "react";
 import PropTypes from "prop-types";
 
 import "./css/card.css";
 
 const Card = props => {
-  const [selected, setSelected] = useState("");
   const gender = name => {
     const endings = ["ia", "te", "le", "li", "ki"];
     let firstName = name.split(" ")[0];
@@ -13,11 +12,6 @@ const Card = props => {
     )
       ? "Female"
       : "Male";
-  };
-
-  const handleChoose = (e, name) => {
-    const newSelected = selected === name ? "" : name;
-    setSelected(newSelected);
   };
 
   const {
@@ -32,6 +26,7 @@ const Card = props => {
     friends
   } = props.inhabitant;
 
+  const { selected, handleChoose } = props;
   return (
     <div
       className={selected === name ? "card selectedCard" : "card"}
@@ -82,6 +77,8 @@ const Card = props => {
 
 Card.propTypes = {
   inhabitant: PropTypes.object.isRequired,
-  handleSearchFriends: PropTypes.func.isRequired
+  selected: PropTypes.string.isRequired,
+  handleSearchFriends: PropTypes.func.isRequired,
+  handleChoose: PropTypes.func.isRequired
 };
 export default Card;
